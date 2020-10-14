@@ -10,5 +10,5 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     content = "<br>[OS] " + platform.platform() + "<br> [Time] " + datetime.now().strftime("%A, %d %B, %Y at %X")
-    content = "[TEXT] " + "Version 1" + content
+    content = "[TEXT] " + "Version 2" + content
     return content
