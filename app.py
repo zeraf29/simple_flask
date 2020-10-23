@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    content = "<br>This is main.py, running on GCP"
+    content = "<br>This is main.py, running on Azure"
     content = "<br>[OS] " + platform.platform() + "<br> [Time] " + datetime.now().strftime("%A, %d %B, %Y at %X") + content
     content = "[TEXT] " + "Version 1" + content
     return content
